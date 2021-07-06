@@ -1,0 +1,29 @@
+{
+   "name": "StudyEfficient",
+   "description": "Study without the distractions of capitilism",
+   "version": "1.0",
+   "manifest_version": 2,
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://code.jquery.com; object-src 'self'",
+
+   "content_scripts": [
+       {
+           "matches": [
+               "<all_urls>"
+           ],
+           "js": ["javascript.js"]
+       }
+   ],
+
+   "browser_action":{
+       "default_popup": "index.html"
+   },
+   "permissions":[
+       "tabs",
+       "storage",
+       "https://code.jquery.com/ui/1.12.1/jquery-ui.js",
+       "https://code.jquery.com/jquery-1.12.4.js"
+   ]
+
+
+   
+}

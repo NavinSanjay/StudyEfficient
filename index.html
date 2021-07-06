@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyEfficient</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="app.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+
+<body>
+    <div class="nav-bar">
+        <span id="header-icons">
+            <a href="https://google.com" class="fa fa-question-circle"></a>
+            <a href="https://google.com" class="fa fa-gear"></a>
+
+        </span>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="header-box">
+            <div class="modal-header">
+                <h1 class="logo">
+                    <img src="" alt="" class="logo-icon"> Study Efficient
+                </h1>
+            </div>
+        </div>
+        <div class="white-box">
+            <div class="current-website">
+                <input type="text" list="sel" id="option" name="option" placeholder="Type website's to be blocked..">
+                <br>
+                <!--  <datalist id="sel" multiple = "multiple">
+                    <option value="None">
+                    </datalist> -->
+            </div>
+            <div id="blockedList">
+                <label id="checkbox-label">
+                    <span class="checkbox-custom">
+
+                        <input type="checkbox" name="facebook" value="www.facebook.com"><label
+                            for="facebook">Facebook</label>
+                        <br>
+                        <input type="checkbox" name="Youtube" value="www.Youtube.com"><label
+                            for="Youtube">Youtube</label>
+                        <br>
+                        <input type="checkbox" name="Instagram" value="www.Instagram.com"><label
+                            for="Instagram">Instagram</label>
+                        <br>
+                        <input type="checkbox" name="Reddit" value="www.reddit.com"><label for="Reddit">Reddit</label>
+                </label>
+                </span>
+
+
+                <br>
+            </div>
+            <a id="block" class="block-button">BLOCK WEBSITE'S!</a>
+            <a id="unblock" class="unblock-button">PROCRASTINATE</a>
+            <div id="dialog-confirm"></div>
+
+
+
+
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+</body>
+<script type="text/javascript" src="javascript.js"> </script>
+
+
+</html>
